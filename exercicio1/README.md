@@ -85,3 +85,7 @@ Melhor flag -O:
 
 ## calc_primo.c somente com ímpares
 
+## gprof
+
+## Programa paralelizado
+
