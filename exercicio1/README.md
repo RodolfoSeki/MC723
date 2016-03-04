@@ -3,11 +3,11 @@ Aluno Luiz Rodolfo Felet Sekijima
 RA 117842
 
 ## primo.c não otimizado
-O programa primo.c executado sem nenhuma otimazação de código ou de flags imprime o seguinte resultado, todos os tempos a seguir são mostrados com o calculo de uma média de 10 execuções:
+O programa primo.c executado sem nenhuma otimazação de código ou de flags imprime o seguinte resultado, todos os tempos a seguir são mostrados com o calculo de uma média de 50 execuções:
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.3071s
+user	0.30556s
+sys	    0.00064s
 ~~~
 
 A seguir vemos como as flags de otimização do gcc influência os tempos de execução:
@@ -69,18 +69,18 @@ sys     0m0.001s
 Separando o programa em dois arquivos (os arquivos deste codigo se encontram em /exercicio1/dois_arquivos), podemos compila-lo novamente usando uma makefile que define as regras de compliação, gerando object files para cada arquivo de código antes de fazer o link entre eles. Estes foram os resultados dos tempos:
 
 Sem flags:
-  : ~~~
-    real	0m0.288s
-    user	0m0.287s
-    sys	    0m0.000s
-    ~~~
+~~~
+real	0m0.305s
+user	0m0.301s
+sys     0m0.001s
+~~~
 
 Melhor flag -O:
-  : ~~~
-    real	0m0.288s
-    user	0m0.287s
-    sys	    0m0.000s
-    ~~~
+~~~
+real	0m0.305s
+user	0m0.301s
+sys     0m0.001s
+~~~
 
 
 ## calc_primo.c somente com ímpares
