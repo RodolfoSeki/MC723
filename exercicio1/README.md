@@ -70,22 +70,28 @@ Separando o programa em dois arquivos (os arquivos deste codigo se encontram em 
 
 Sem flags:
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.28956s
+user	0.28844s
+sys		0.00048s
 ~~~
 
 Melhor flag -O:
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.29106s
+user	0.29002s
+sys		0.00038s
 ~~~
 
 
 ## calc_primo.c somente com ímpares
 
+
+
 ## gprof
 
 ## Programa paralelizado
 
+# Falta
+[] criar pasta original
+
+[] criar pasta para calcular primos de 1 a n com um unico arquivo
