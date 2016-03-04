@@ -14,29 +14,29 @@ A seguir vemos como as flags de otimização do gcc influência os tempos de execuç
 
 -O0
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.3016s
+user	0.30054s
+sys	    0.00036s
 ~~~
 -O1
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.26174s
+user	0.25934s
+sys		0.00044s
 ~~~
 
 -O2
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.28886s
+user	0.28796s
+sys		0.00038s
 ~~~
 
 -O3
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.29582s
+user	0.29418s
+sys		0.00064s
 ~~~
 
 A flag que mais reduziu o tempo de execução foi a -O1
@@ -45,23 +45,23 @@ Outras flags que podem ser aplicadas são:
 
 -Os
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.28832s
+user	0.28768s
+sys		0.00034s
 ~~~
 
 -Ofast
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.28996s
+user	0.28842s
+sys		0.0007s
 ~~~
     
 -mtune=native
 ~~~
-real	0m0.305s
-user	0m0.301s
-sys     0m0.001s
+real	0.30314s
+user	0.30192s
+sys		0.00036s
 ~~~
 
 ## main.c e calc_primo.c
