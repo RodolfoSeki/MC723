@@ -10,4 +10,4 @@ calc_primo.o: calc_primo.c
 	gcc -c calc_primo.c
 
 clean:
-	rm *o primo
+	rm primo

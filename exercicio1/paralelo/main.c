@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <omp.h>
 
 main(int argc, char *argv[])
 {
   int i, soma, n = strtol(argv[1], NULL, 10);;
   soma =0;
 
+  #pragma omp parallel for
   for(i = 2; i < n; i++){
 	if (primo(i))
 	  soma++;
