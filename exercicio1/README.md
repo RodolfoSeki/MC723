@@ -66,5 +66,22 @@ Outras flags que podem ser aplicadas são:
 
 ## main.c e calc_primo.c
 
-Separando o programa em dois arquivos, podemos compila-lo novamente usando uma makefile que define as regras de compliação, gerando object files para cada arquivo de código antes de fazer o link entre eles.
+Separando o programa em dois arquivos (os arquivos deste codigo se encontram em /exercicio1/dois_arquivos), podemos compila-lo novamente usando uma makefile que define as regras de compliação, gerando object files para cada arquivo de código antes de fazer o link entre eles. Estes foram os resultados dos tempos:
+
+Sem flags:
+  : ~~~
+    real	0m0.288s
+    user	0m0.287s
+    sys	    0m0.000s
+    ~~~
+
+Melhor flag -O:
+  : ~~~
+    real	0m0.288s
+    user	0m0.287s
+    sys	    0m0.000s
+    ~~~
+
+
+## calc_primo.c somente com ímpares
 
