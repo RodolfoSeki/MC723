@@ -3,14 +3,14 @@ Aluno Luiz Rodolfo Felet Sekijima
 RA 117842
 
 ## primo.c não otimizado
-O programa primo.c executado sem nenhuma otimazação de código ou de flags imprime o seguinte resultado, todos os tempos a seguir são mostrados com o calculo de uma média de 50 execuções:
+O programa primo.c executado sem nenhuma otimazação de código ou de flags está no subdiretório "exercicio1/original", este código imprime o seguinte resultado, todos os tempos a seguir são mostrados com o calculo de uma média de 50 execuções:
 ~~~
 real	0.3071s
 user	0.30556s
 sys	    0.00064s
 ~~~
 
-A seguir vemos como as flags de otimização do gcc influência os tempos de execução:
+A seguir vemos como as flags de otimizagco do gcc influjncia os tempos de execugco:
 
 -O0
 ~~~
@@ -39,9 +39,9 @@ user	0.29418s
 sys		0.00064s
 ~~~
 
-A flag que mais reduziu o tempo de execução foi a -O1
+A flag que mais reduziu o tempo de execugco foi a -O1
 
-Outras flags que podem ser aplicadas são:
+Outras flags que podem ser aplicadas sco:
 
 -Os
 ~~~
@@ -66,7 +66,7 @@ sys		0.00036s
 
 ## main.c e calc_primo.c
 
-Separando o programa em dois arquivos (os arquivos deste codigo se encontram em /exercicio1/dois_arquivos), podemos compila-lo novamente usando uma makefile que define as regras de compliação, gerando object files para cada arquivo de código antes de fazer o link entre eles. Estes foram os resultados dos tempos:
+Separando o programa em dois arquivos ("/exercicio1/dois_arquivos"), podemos compila-lo novamente usando uma makefile que define as regras de compliagco, gerando object files para cada arquivo de csdigo antes de fazer o link entre eles. Estes foram os resultados dos tempos:
 
 Sem flags:
 ~~~
@@ -75,23 +75,46 @@ user	0.28844s
 sys		0.00048s
 ~~~
 
-Melhor flag -O:
+Melhor flag -O1:
 ~~~
 real	0.29106s
 user	0.29002s
 sys		0.00038s
 ~~~
 
+## Primos entre 1 e n
+Para os padronizar o calculo do tempo de execução destes programas, que calculam o número de primos entre 1 e n, todos os testes foram realizados calculando a quantidade de primos entre 1 e 123456 e sem flags de otimização.
 
+### Um arquivo fonte
+~~~
+real	1.73622s
+user	1.73288s
+sys		0.00074s
+~~~
+### Dois arquivos fontes
+~~~
+real	1.9196s
+user	1.91548s
+sys		0.00122s
+~~~
 ## calc_primo.c somente com ímpares
 
-
+~~~
+real	1.01936s
+user	1.01136s
+sys		0.00178s
+~~~
 
 ## gprof
 
 ## Programa paralelizado
+~~~
+real	0.88822s
+user	0.87694s
+sys		0.00098s
+~~~
 
 # Falta
-[] criar pasta original
+[] 
 
-[] criar pasta para calcular primos de 1 a n com um unico arquivo
+[] 
