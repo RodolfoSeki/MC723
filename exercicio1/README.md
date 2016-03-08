@@ -1,17 +1,32 @@
-# MC723 -Exercmcio 1
+# MC723 -Exercício 1
 Aluno Luiz Rodolfo Felet Sekijima
+
 RA 117842
 
+Para todos os tempos de processamento dos programas exibidos a seguir, os testes foram executados em uma mesma maquina no IC, calculando a média de 50 execuções, tentando gerar condições iguais para todas as simulações. Os valores tem precisão de 0.001s, a menor medida de tempo do comando "time", por isso os valores foram arrendados.
 
-Para todos os tempos de processamento exibidos a seguir, os testes foram executados em uma mesma maquina no IC, calculando a média de 50 execuções. Os valores tem precisão de 0.001s, a menor medida de tempo do comando "time".
+## primo.c não otimizado
+O programa que calcula se um inteiro é um primo disponibilizado para o exercício se encontra no subdiretório "exercicio1/original" e foi compilado sem nenhuma flag de otimização com o seguinte comando:
 
-## primo.c nco otimizado
-O programa primo.c foi executado sem nenhuma otimazagco de csdigo ou de flags esta no subdiretsrio "exercicio1/original", este csdigo imprime o seguinte resultado, todos os tempos a seguir sco mostrados com o calculo de uma midia de 50 execugues:
+```bash
+gcc primo.c -o primo
+```
+E com o seguinte resultado de tempo de execução:
+
 ~~~
 real	0.3071s
 user	0.30556s
 sys	    0.00064s
 ~~~
+Este será o tempo base para podermos determinar as melhores otmizações feitas sobre o programa original.
+
+### Otimização por flags -O (gcc)
+
+
+O compilador gcc permite no momento de compilação do programa setar flags que melhoram o tamanho e tempo de execução do código compilado ao custo de tempo e memória no momento de compilação.
+
+
+
 
 A seguir vemos como as flags de otimizagco do gcc influjncia os tempos de execugco:
 
