@@ -1,9 +1,12 @@
-# MC723 -Exercício 1
+# MC723 -Exercmcio 1
 Aluno Luiz Rodolfo Felet Sekijima
 RA 117842
 
-## primo.c não otimizado
-O programa primo.c executado sem nenhuma otimazação de código ou de flags está no subdiretório "exercicio1/original", este código imprime o seguinte resultado, todos os tempos a seguir são mostrados com o calculo de uma média de 50 execuções:
+
+Para todos os tempos de processamento exibidos a seguir, os testes foram executados em uma mesma maquina no IC, calculando a média de 50 execuções. Os valores tem precisão de 0.001s, a menor medida de tempo do comando "time".
+
+## primo.c nco otimizado
+O programa primo.c foi executado sem nenhuma otimazagco de csdigo ou de flags esta no subdiretsrio "exercicio1/original", este csdigo imprime o seguinte resultado, todos os tempos a seguir sco mostrados com o calculo de uma midia de 50 execugues:
 ~~~
 real	0.3071s
 user	0.30556s
@@ -83,7 +86,7 @@ sys		0.00038s
 ~~~
 
 ## Primos entre 1 e n
-Para os padronizar o calculo do tempo de execução destes programas, que calculam o número de primos entre 1 e n, todos os testes foram realizados calculando a quantidade de primos entre 1 e 123456 e sem flags de otimização.
+Para os padronizar o calculo do tempo de execugco destes programas, que calculam o nzmero de primos entre 1 e n, todos os testes foram realizados calculando a quantidade de primos entre 1 e 123456 e sem flags de otimizagco.
 
 ### Um arquivo fonte
 ~~~
@@ -97,7 +100,7 @@ real	1.9196s
 user	1.91548s
 sys		0.00122s
 ~~~
-## calc_primo.c somente com ímpares
+## calc_primo.c somente com mmpares
 
 ~~~
 real	1.01936s
