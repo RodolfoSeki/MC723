@@ -1,7 +1,7 @@
 all: primo
 
 primo: main.o calc_primo.o
-	gcc main.o calc_primo.o -o primo
+	gcc -pg main.o calc_primo.o -o primo
 	
 main.o: main.c
 	gcc -c main.c
