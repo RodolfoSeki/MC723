@@ -24,7 +24,7 @@ with open(sys.argv[1]) as f:
             soma_sys = soma_sys + float(actual.split('s')[0])
 
 # Calcula e imprime a media de tempos
-print('real	'+ str(soma_real/int(sys.argv[2])) +'s')
-print('user	'+ str(soma_user/int(sys.argv[2])) +'s')
-print('sys		'+ str(soma_sys/int(sys.argv[2])) +'s')
+print('real	'+ "{0:.3f}".format(soma_real/int(sys.argv[2]))+'s')
+print('user	'+ "{0:.3f}".format(soma_user/int(sys.argv[2]))+'s')
+print('sys		'+ "{0:.3f}".format(soma_sys/int(sys.argv[2]))+'s')
 
