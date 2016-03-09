@@ -1,200 +1,200 @@
 
-real	0m2.600s
-user	0m2.587s
+real	0m1.872s
+user	0m1.867s
+sys	0m0.001s
+
+real	0m1.917s
+user	0m1.910s
 sys	0m0.000s
 
-real	0m2.590s
-user	0m2.587s
+real	0m1.911s
+user	0m1.868s
 sys	0m0.001s
 
-real	0m2.598s
-user	0m2.586s
-sys	0m0.003s
+real	0m1.880s
+user	0m1.871s
+sys	0m0.001s
 
-real	0m2.590s
-user	0m2.588s
+real	0m1.904s
+user	0m1.903s
 sys	0m0.000s
 
-real	0m2.597s
-user	0m2.588s
-sys	0m0.002s
-
-real	0m2.589s
-user	0m2.585s
-sys	0m0.002s
-
-real	0m2.589s
-user	0m2.586s
-sys	0m0.001s
-
-real	0m2.595s
-user	0m2.590s
-sys	0m0.003s
-
-real	0m2.590s
-user	0m2.588s
-sys	0m0.004s
-
-real	0m2.597s
-user	0m2.593s
-sys	0m0.001s
-
-real	0m2.650s
-user	0m2.606s
+real	0m1.897s
+user	0m1.889s
 sys	0m0.000s
 
-real	0m2.610s
-user	0m2.591s
+real	0m1.921s
+user	0m1.910s
 sys	0m0.002s
 
-real	0m2.626s
-user	0m2.595s
+real	0m1.892s
+user	0m1.890s
 sys	0m0.001s
 
-real	0m2.632s
-user	0m2.591s
-sys	0m0.032s
+real	0m1.889s
+user	0m1.888s
+sys	0m0.001s
 
-real	0m2.611s
-user	0m2.600s
+real	0m1.886s
+user	0m1.885s
+sys	0m0.000s
+
+real	0m1.889s
+user	0m1.888s
+sys	0m0.001s
+
+real	0m1.874s
+user	0m1.873s
+sys	0m0.000s
+
+real	0m1.884s
+user	0m1.884s
+sys	0m0.000s
+
+real	0m1.907s
+user	0m1.904s
+sys	0m0.001s
+
+real	0m1.876s
+user	0m1.875s
+sys	0m0.000s
+
+real	0m1.956s
+user	0m1.943s
 sys	0m0.002s
 
-real	0m2.595s
-user	0m2.591s
-sys	0m0.001s
-
-real	0m2.606s
-user	0m2.595s
+real	0m1.941s
+user	0m1.938s
 sys	0m0.002s
 
-real	0m2.596s
-user	0m2.592s
+real	0m1.980s
+user	0m1.961s
+sys	0m0.018s
+
+real	0m1.977s
+user	0m1.976s
 sys	0m0.001s
 
-real	0m2.618s
-user	0m2.589s
-sys	0m0.005s
-
-real	0m2.614s
-user	0m2.590s
-sys	0m0.003s
-
-real	0m2.639s
-user	0m2.596s
-sys	0m0.004s
-
-real	0m2.623s
-user	0m2.599s
-sys	0m0.002s
-
-real	0m2.603s
-user	0m2.597s
-sys	0m0.004s
-
-real	0m2.600s
-user	0m2.596s
+real	0m1.952s
+user	0m1.949s
 sys	0m0.001s
 
-real	0m2.632s
-user	0m2.607s
-sys	0m0.017s
+real	0m1.917s
+user	0m1.916s
+sys	0m0.000s
 
-real	0m2.594s
-user	0m2.587s
-sys	0m0.003s
+real	0m1.931s
+user	0m1.931s
+sys	0m0.000s
 
-real	0m2.608s
-user	0m2.593s
-sys	0m0.008s
+real	0m1.894s
+user	0m1.888s
+sys	0m0.001s
 
-real	0m2.619s
-user	0m2.594s
-sys	0m0.003s
+real	0m1.920s
+user	0m1.918s
+sys	0m0.001s
 
-real	0m2.607s
-user	0m2.590s
-sys	0m0.003s
+real	0m1.912s
+user	0m1.910s
+sys	0m0.001s
 
-real	0m2.594s
-user	0m2.587s
+real	0m1.902s
+user	0m1.901s
+sys	0m0.000s
+
+real	0m1.890s
+user	0m1.890s
+sys	0m0.000s
+
+real	0m1.895s
+user	0m1.885s
+sys	0m0.001s
+
+real	0m1.918s
+user	0m1.918s
+sys	0m0.000s
+
+real	0m1.951s
+user	0m1.951s
+sys	0m0.000s
+
+real	0m1.926s
+user	0m1.919s
 sys	0m0.006s
 
-real	0m2.588s
-user	0m2.587s
+real	0m1.921s
+user	0m1.920s
 sys	0m0.000s
 
-real	0m2.589s
-user	0m2.585s
-sys	0m0.002s
+real	0m1.916s
+user	0m1.913s
+sys	0m0.000s
 
-real	0m2.593s
-user	0m2.587s
-sys	0m0.002s
+real	0m1.950s
+user	0m1.948s
+sys	0m0.000s
 
-real	0m2.608s
-user	0m2.588s
+real	0m1.952s
+user	0m1.952s
+sys	0m0.000s
+
+real	0m1.889s
+user	0m1.887s
 sys	0m0.001s
 
-real	0m2.590s
-user	0m2.586s
+real	0m1.896s
+user	0m1.893s
+sys	0m0.000s
+
+real	0m1.958s
+user	0m1.958s
+sys	0m0.000s
+
+real	0m1.965s
+user	0m1.957s
+sys	0m0.007s
+
+real	0m1.959s
+user	0m1.955s
 sys	0m0.003s
 
-real	0m2.594s
-user	0m2.584s
-sys	0m0.008s
-
-real	0m2.599s
-user	0m2.593s
+real	0m1.915s
+user	0m1.907s
 sys	0m0.000s
 
-real	0m2.609s
-user	0m2.592s
-sys	0m0.011s
-
-real	0m2.589s
-user	0m2.586s
+real	0m1.914s
+user	0m1.913s
 sys	0m0.001s
 
-real	0m2.590s
-user	0m2.588s
+real	0m1.929s
+user	0m1.929s
 sys	0m0.000s
 
-real	0m2.592s
-user	0m2.588s
+real	0m1.978s
+user	0m1.978s
+sys	0m0.000s
+
+real	0m1.944s
+user	0m1.942s
+sys	0m0.001s
+
+real	0m1.896s
+user	0m1.895s
+sys	0m0.000s
+
+real	0m1.924s
+user	0m1.922s
+sys	0m0.001s
+
+real	0m1.941s
+user	0m1.939s
+sys	0m0.001s
+
+real	0m1.934s
+user	0m1.931s
 sys	0m0.002s
 
-real	0m2.591s
-user	0m2.588s
+real	0m1.938s
+user	0m1.936s
 sys	0m0.001s
-
-real	0m2.590s
-user	0m2.587s
-sys	0m0.001s
-
-real	0m2.594s
-user	0m2.589s
-sys	0m0.001s
-
-real	0m2.610s
-user	0m2.579s
-sys	0m0.025s
-
-real	0m2.595s
-user	0m2.584s
-sys	0m0.008s
-
-real	0m2.592s
-user	0m2.588s
-sys	0m0.001s
-
-real	0m2.588s
-user	0m2.586s
-sys	0m0.000s
-
-real	0m2.588s
-user	0m2.587s
-sys	0m0.000s
-
-real	0m2.599s
-user	0m2.594s
-sys	0m0.000s
