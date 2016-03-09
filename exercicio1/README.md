@@ -3,10 +3,10 @@ Aluno Luiz Rodolfo Felet Sekijima
 
 RA 117842
 
-Para todos os tempos de processamento dos programas exibidos a seguir, os testes foram executados em uma mesma maquina no IC, calculando a média de 50 execuções, tentando gerar condições iguais para todas as simulações. Os valores tem precisão de 0.001s, a menor medida de tempo do comando "time", por isso os valores foram arrendados.
+Para todos os tempos de processamento dos programas exibidos a seguir, os testes foram executados em uma mesma maquina no IC, calculando a média de 50 execuções. Os valores tem precisão de 0.001s, a menor medida de tempo do comando "time", por isso os valores foram arrendados.
 
 ## primo.c não otimizado
-O programa que calcula se um inteiro é um primo disponibilizado para o exercício se encontra no subdiretório "exercicio1/original" e foi compilado sem nenhuma flag de otimização com o seguinte comando:
+O programa original disponibilizado para o exercício se encontra no subdiretório "exercicio1/original" e foi compilado sem nenhuma flag de otimização com o seguinte comando:
 
 ```bash
 gcc primo.c -o primo
@@ -18,39 +18,49 @@ real	0.3071s
 user	0.30556s
 sys	    0.00064s
 ~~~
+
 Este será o tempo base para podermos determinar as melhores otmizações feitas sobre o programa original.
 
-### Otimização por flags -O (gcc)
+### Otimização por *flags* (gcc)
 
 
-O compilador gcc permite no momento de compilação do programa setar flags que melhoram o tamanho e tempo de execução do código compilado ao custo de tempo e memória no momento de compilação.
+O compilador gcc permite no momento de compilação do programa setar *flags* que são variavéis de ambiente que indicam o modo que deve ser feita a compilação do código fonte. Elas melhoram o tamanho e tempo de execução do código compilado ao custo de tempo e memória no momento de compilação. Estas *flags* podem ser setadas pelas variável "-O", seguida pelo nível de otimização que se deseja.  
 
 
+A seguir vemos como a otimização via -O do gcc influenciam os tempos de execução e qual seu propósito:
 
 
-A seguir vemos como as flags de otimizagco do gcc influjncia os tempos de execugco:
+#### -O0
 
--O0
+Este é padrão, qualquer programa compilado sem *flags* será processado como "-O0", reduz tempo e memória no momento de compilação e facilita o *debbuging* do programa.  
 ~~~
 real	0.3016s
 user	0.30054s
 sys	    0.00036s
 ~~~
--O1
+
+#### -O1 ou -O
+
+Nível de otimização basico, tenta reduzir tempo de execução e tamanho do código.
+
 ~~~
 real	0.26174s
 user	0.25934s
 sys		0.00044s
 ~~~
 
--O2
+#### -O2
+Otimização além de -O1, seta todas as *flags* de -O1 e mais alguns parametros de otimização. Tenta reduzir mais o tempo de execução sem modificar o tamanho do código compilado.
+
 ~~~
 real	0.28886s
 user	0.28796s
 sys		0.00038s
 ~~~
 
--O3
+#### -O3
+
+Maior nível de otimização, tenta deixar o código mais rápido possível na execução , o que aumenta em muito o tempo de compilação. No entanto, o uso de -O3 não é garantia de 
 ~~~
 real	0.29582s
 user	0.29418s
@@ -133,6 +143,55 @@ sys		0.00098s
 ~~~
 
 # Falta
-[] 
+MC723 - Checklist Exercicio 1
 
-[] 
+^Compile o programa sem nenhuma opção de compilação extra. 
+	Quanto tempo ele gasta?
+	Veja se o valor muda utilizando, separadamente, cada uma das otimizações -O0, -O1, -O2 -O3 (letra O maiúscula seguida de um número).
+		Como especificar as otimizações que um compilador deve utilizar num programa?
+		Qual delas deu o melhor tempo?
+	Existem outras otimizações que você pode aplicar no processador atual, consulte o manual do gcc por otimizações da categoria -mtune e veja quais se aplicam ao seu processador.
+		Para que elas servem?
+		O tempo melhorou?
+	Quais otimizações são importantes para o processador que você está utilizando?
+	
+	
+Quebre o programa em dois arquivos separados: main.c com a função main e calc_primo.c com a função primo.
+Faça as alterações necessárias nos dois arquivos para que eles compilem.
+	Como compilá-los?
+	Você consegue montar um script que compile estes dois programas?
+	E um Makefile? 
+	Qual a diferença entre um Makefile e um script?
+Rode novamente o programa e veja se ele gasta o mesmo tempo com a melhor otimização utilizada anteriormente.
+	O resultado foi o esperado? Comente.
+	
+Modifique seu programa para calcular quantos números primos existem entre 1 e n, seguindo o mesmo algoritmo utilizado, modificando apenas a função main e fazendo com que n seja um parâmetro passado por linha de comando.
+	Meça o tempo com um arquivo fonte e com dois.
+	O resultado foi o esperado? Comente.
+
+Agora é hora de tentar melhorar um pouco o programa (mas não muito ainda).
+Edite o laço da função primo para varrer apenas os números ímpares, dividindo o conjunto de números a testar por dois.
+Lembre-se que o resultado deve ser o mesmo para a mesma entrada! Caso encontre algum problema, utilize o GDB para depurar seu programa.
+Muitas vezes, a interface em modo texto do GDB dificulta a depuração, recomendo que vocês utilizem um visualizador gráfico para o GDB.
+Um bom visualizador é o DDD (basta executar ddd na linha de comando).
+Alguns comandos interessantes do GDB que você deve saber utilizar: breakpoint, watchpoint, print, display, run, set args e help.
+O que é "depurar um programa"?
+Como executar o GDB?
+Como utilizar um ambiente gráfico com o GDB?
+
+
+Em qual parte seu programa gasta mais tempo? use o gprof para descobrir
+Como descobrir a parte que é mais executada de um programa?
+Como utilizar o gprof?
+
+
+
+Se você tiver que paralelizar alguma parte do código, qual parte você escolheria?
+Como paralelizar de forma escalável o código?
+Como fazer com que um programa tire proveito de multiprocessamento de forma escalável?
+Eu sugiro utilizar OpenMP, veja um tutorial, o site oficial, uso pelo GCC e implementação GNU do for.
+	Meça o tempo do programa paralelizado.
+	O resultado foi o esperado? Comente.
+
+Como melhorar ainda mais o desempenho deste programa?
+
