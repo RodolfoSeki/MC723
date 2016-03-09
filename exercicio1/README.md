@@ -41,7 +41,7 @@ sys	    0.00036s
 
 #### -O1 ou -O
 
-Nível de otimização basico, tenta reduzir tempo de execução e tamanho do código.
+Nível de otimização básico, tenta reduzir tempo de execução e tamanho do código.
 
 ~~~
 real	0.26174s
@@ -60,7 +60,7 @@ sys		0.00038s
 
 #### -O3
 
-Maior nível de otimização, tenta deixar o código mais rápido possível na execução , o que aumenta em muito o tempo de compilação. No entanto, o uso de -O3 não é garantia de código mais rápido, pois os binários podem ser maiores e por causa do maior uso de memória. 
+Maior nível de otimização, tenta deixar o código mais rápido possível na execução, o que aumenta em muito o tempo de compilação. No entanto, o uso de -O3 não é garantia de código mais rápido, pois os binários podem ser maiores e por causa do maior uso de memória. 
 ~~~
 real	0.29582s
 user	0.29418s
@@ -68,7 +68,7 @@ sys		0.00064s
 ~~~
 
 #### -Ofast
-Tenta deixar o -O3 mais rápido mas acaba quebrando os padrões de compilação, não recomendado.
+Tenta deixar o -O3 mais rápido mas acaba quebrando os padrões importantes de compilação, não recomendado.
 ~~~
 real	0.28996s
 user	0.28842s
@@ -84,6 +84,11 @@ real	0.30314s
 user	0.30192s
 sys		0.00036s
 ~~~
+
+
+#### Melhor variável de otimização
+
+A variável apresentou a melhor redução no tempo de execução do programa, era de se esperar que -O2 e -O3 fossem melhores pois ativam mais *flags* de otimização, mas para um código tão pequeno como esse, apenas duas funções, acabaram gerando uma complexidade exagerada no programa devido aos arquivos binários grandes e maior consumo de memória, o que resultou em maior lentidão na execução.
 
 ## main.c e calc_primo.c
 
