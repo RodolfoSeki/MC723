@@ -225,9 +225,9 @@ Para melhorar o desempenho do programa, podemos aplicar todas as otimizações des
 
 
 ~~~
-real	0.360s
-user	0.850s
+real	0.004s
+user	0.011s
 sys		0.001s
 ~~~
 
-Vemos então como é importante a otimização de código, visto que o programa final é ****** vezes mais rápido que o programa original.
+Vemos então como é importante a otimização de código, visto que o programa final é quase 400 vezes mais rápido que o programa sem otimizações (/exercicio1/n_primos_1_arquivo).
