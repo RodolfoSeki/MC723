@@ -9,7 +9,7 @@ int primo(int n)
     return 0;
     
   
-  for(i = 3; i < sqrt(n); i +=2)
+  for(i = 3; i <= sqrt(n); i +=2)
     if (n % i == 0)
       return 0;
   
