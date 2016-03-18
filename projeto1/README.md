@@ -64,7 +64,28 @@ plot "/tmp/mem.log" using 3 with lines axes x1y1 title "VSZ", \
      "/tmp/mem.log" using 2 with lines axes x1y2 title "%MEM"
 ```
 
+Passos para medição:
+
+Primeiramente execute o perf para executar 10x o programa e tirar as medias e calcular os desvios padrões:
+(executar dentro da pasta FFmpeg e alterar caminhos para in.mp4 e out.avi
+
+	perf stat -d -r 10 ./ffmpeg -y -i  <in>.mp4 -acodec copy -vcodec mpeg4 out.avi
+
+Quando o comando finalizar salvar as linhas que contém as seguintes palavras chave:
+
+	page-faults
+	stalled-cycles-front-end
+	seconds time elapsed
+	L1-dcache-load-misses
+
 ## Como apresentar o desempenho
-Como o desempenho deverÃ¡ ser mostrado. Margem de erro, etc. 
-## MediÃ§Ãµes base (uma mÃ¡quina)
-Inclua a especificaÃ§Ã£o dos componentes relevantes e os resultados de desempenho.
+
+Colocar as linhas copiadas
+
+## Medicões base (uma máquina)
+   	Quantidade           Nome da Medida                  Taxa                           Desvio
+
+            29.618      page-faults:HG             #    0,170 K/sec                    ( +-  0,00% )
+   149.843.408.784      stalled-cycles-frontend:HG #   54,98% frontend cycles idle     ( +-  0,54% ) [57,22%]
+     2.376.902.951      L1-dcache-load-misses:HG   #    0,00% of all L1-dcache hits    ( +-  0,36% ) [71,41%]
+      29,593136593 seconds time elapsed                                                ( +- 12,30% )
