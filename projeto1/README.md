@@ -22,7 +22,7 @@ Após isso, o binário estará disponível na raiz do git, com o nome ffmpeg.
 ## Como executar
 Para executar o programa com a amostra, é necessário definir alguns parâmetros padrões, logo, uma linha de comando que sintetiza é:
 	
-    $ ./ffmpeg -i in.mp4 -acodec copy -vcodec mpeg4 out.avi
+    $ ./ffmpeg -i <in>.mp4 -acodec copy -vcodec mpeg4 <out>.avi
     
 ## Como medir o desempenho
 Para medir o desempenho, usamos:
@@ -37,7 +37,7 @@ Para medir o desempenho, usamos:
 	
     
     
-* Memória: meidmos o uso de memória através de um gráfico, que será extraído e renderizado com o seguinte comando:
+* Memória: medimos o uso de memória através de um gráfico, que será extraído e renderizado com o seguinte comando:
 ```sh
     #!/bin/bash
 	while true; do

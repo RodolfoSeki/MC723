@@ -11,5 +11,5 @@ set yrange [0:*]
 set y2range [0:*]
 
 
-plot "/home/klox/Programas/MC723/projeto1/mem.log" using 3 with lines axes x1y1 title "VSZ", \
-     "/home/klox/Programas/MC723/projeto1/mem.log" using 2 with lines axes x1y2 title "%MEM"
+plot "/tmp/mem.log" using 3 with lines axes x1y1 title "VSZ", \
+     "/tmp/mem.log" using 2 with lines axes x1y2 title "%MEM"
