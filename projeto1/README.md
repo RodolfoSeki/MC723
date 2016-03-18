@@ -86,6 +86,6 @@ Colocar as linhas copiadas
    	Quantidade           Nome da Medida                  Taxa                           Desvio
 
             29.618      page-faults:HG             #    0,170 K/sec                    ( +-  0,00% )
-   149.843.408.784      stalled-cycles-frontend:HG #   54,98% frontend cycles idle     ( +-  0,54% ) [57,22%]
-     2.376.902.951      L1-dcache-load-misses:HG   #    0,00% of all L1-dcache hits    ( +-  0,36% ) [71,41%]
-      29,593136593 seconds time elapsed                                                ( +- 12,30% )
+   	149.843.408.784      stalled-cycles-frontend:HG #   54,98% frontend cycles idle     ( +-  0,54% ) [57,22%]
+     	2.376.902.951      L1-dcache-load-misses:HG   #    0,00% of all L1-dcache hits    ( +-  0,36% ) [71,41%]
+      	29,593136593 seconds time elapsed                                                ( +- 12,30% )
