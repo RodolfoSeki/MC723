@@ -28,14 +28,12 @@ Para executar o programa com a amostra, é necessário definir alguns parâmetro
 Para medir o desempenho, usamos:
 
 * Page fault, cache miss, stalled
-> Comandos uteis  
-> $ perf stat -d  
-> $ perf stat -r 10  
-> $ perf report --stdio
-
-* Tempo - usamos a própria medida do FFmpeg que é exibida na saída, isso é, o tempo de transcode gasto que é emitido como:
-	
-    
+~~~
+ $ perf stat -d  
+ $ perf stat -r 10  
+ $ perf report --stdio
+~~~
+* Tempo - a ferramenta perf para medir o tempo.
     
 * Memória: medimos o uso de memória através de um gráfico, que será extraído e renderizado com o seguinte comando:
 ```sh
@@ -63,6 +61,10 @@ set y2range [0:*]
 plot "/tmp/mem.log" using 3 with lines axes x1y1 title "VSZ", \
      "/tmp/mem.log" using 2 with lines axes x1y2 title "%MEM"
 ```
+O gráfico gerado é o seguinte:
+![mem Graph](mem-graph.png)
+
+Após medirmos e vermos o gráfico, chegamos a conclusão que talvez ele seja pouco útil para o benchmarking, visto que o consumo de memória é pequeno, no geral, e deve variar apenas com o vídeo.
 
 Passos para medição:
 
@@ -77,11 +79,7 @@ Quando o comando finalizar salvar as linhas que contém as seguintes palavras ch
 	stalled-cycles-front-end
 	seconds time elapsed
 	L1-dcache-load-misses
-
-## Como apresentar o desempenho
-
-Colocar as linhas copiadas
-
+	
 ## Medicões base (uma máquina)
    	Quantidade           Nome da Medida                  Taxa                           Desvio
 
