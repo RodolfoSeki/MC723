@@ -66,7 +66,7 @@ O gráfico gerado é o seguinte:
 
 Após medirmos e vermos o gráfico, chegamos a conclusão que talvez ele seja pouco útil para o benchmarking, visto que o consumo de memória é pequeno, no geral, e deve variar apenas com o vídeo.
 
-Passos para medição:
+## Passos para medição:
 
 Primeiramente execute o perf para executar 10x o programa e tirar as medias e calcular os desvios padrões:
 (executar dentro da pasta FFmpeg e alterar caminhos para in.mp4 e out.avi
