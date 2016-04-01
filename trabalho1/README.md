@@ -68,7 +68,7 @@ O método 1 conseguiu determinar as máquinas de pior desempenho de modo semelha
 ### Método 2 - Notas
 
 ![Notas do método 2]
-(notas2.png)
+(nota2.png)
 
 
 O método 2 apresentou um ranking melhor entre as máquinas, atribuindo notas mais próximas para as máquinas do IC e mostrando os computadores com processador de mais novos e maior memória no topo do ranking.
