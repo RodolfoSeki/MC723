@@ -19,7 +19,7 @@ Cada grupo criou um benchmark sobre um programa de código fonte aberto, com bas
 O primeiro método de comparação proposto é a normalização de cada parâmetro dos benchmarks para um valor entre 0 e 10 e então tirar uma média para cada máquina dos seus valores normalizados. A fórmula de normalização a seguir converte um conjunto de valores para valores entre 0 e 1, baseados nos valores máximo e mínimo do conjunto. Então basta multiplicar este valor por 10 e obtemos uma nota até 10 para um certo parâmetro dos benchmarks.
 
 ![Formúla de normalização 0 a 1]
-(MC723/trabalho1/normalize.jpg)
+(normalize.jpg)
 
 Então cada máquina terá diversas notas de acordo com os benchmarks usados, tirando a média ponderada destas notas teremos a nota final daquele computador.
 
@@ -27,9 +27,21 @@ O problema deste método é que como poucos computadores foram usados, o desvio 
 
 ### Método 2
 
-Neste método, antes de calcular a nota ponderada dos parâmetros de desempenho, os valores são convertidos em um ranking de melhor desempenho relativo aquele parâmetro específico e apartir do ranking uma nota normalizada é gerada, esta nota é gerada da mesma forma do método anterior. Então 
+Neste método, primeiro os valores de desempenho são convertidos em um ranking de melhor desempenho, quanto melhor o desempenho maior o ranking. Então a partir do ranking são geradas notas de 0 a 10, proporcionais a posição no ranking daquele parâmetro, assim teremos uma distribuição de notas muito mais homogênea e o desvio padrão das medidas cai expressivamente. Agora com as notas para cada parâmetro, geramos a nota final ponderada. 
+Este método é melhor que o anterior pois, se considerarmos que todos os parâmetros são igualmente importantes e relevantes para a comparação, ele faz com que as notas dos parâmetros sejam determinadas por um mesmo fator, o posicionamento no ranking.
+
+Se analisarmos os histogramas de notass dos dois métodos veremos que o método 2 distribui melhor as notas.
+
+![Histograma de notas do método 1]
+(hist1.png)
+
+![Histograma de notas do método 2]
+(hist2.png)
 
 
 ## Análise das máquinas
+
+
+
 
 
