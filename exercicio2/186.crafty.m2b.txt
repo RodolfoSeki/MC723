@@ -1,0 +1,320 @@
+Associatividade:1
+Tamanho Cache:2K
+Tamanho Bloco:16
+
+Associatividade:2
+Tamanho Cache:2K
+Tamanho Bloco:16
+
+Associatividade:4
+Tamanho Cache:2K
+Tamanho Bloco:16
+
+Associatividade:8
+Tamanho Cache:2K
+Tamanho Bloco:16
+
+Associatividade:1
+Tamanho Cache:2K
+Tamanho Bloco:32
+
+Associatividade:2
+Tamanho Cache:2K
+Tamanho Bloco:32
+
+Associatividade:4
+Tamanho Cache:2K
+Tamanho Bloco:32
+
+Associatividade:8
+Tamanho Cache:2K
+Tamanho Bloco:32
+
+Associatividade:1
+Tamanho Cache:2K
+Tamanho Bloco:64
+
+Associatividade:2
+Tamanho Cache:2K
+Tamanho Bloco:64
+
+Associatividade:4
+Tamanho Cache:2K
+Tamanho Bloco:64
+
+Associatividade:8
+Tamanho Cache:2K
+Tamanho Bloco:64
+
+Associatividade:1
+Tamanho Cache:2K
+Tamanho Bloco:128
+
+Associatividade:2
+Tamanho Cache:2K
+Tamanho Bloco:128
+
+Associatividade:4
+Tamanho Cache:2K
+Tamanho Bloco:128
+
+Associatividade:8
+Tamanho Cache:2K
+Tamanho Bloco:128
+
+Associatividade:1
+Tamanho Cache:2K
+Tamanho Bloco:256
+
+Associatividade:2
+Tamanho Cache:2K
+Tamanho Bloco:256
+
+Associatividade:4
+Tamanho Cache:2K
+Tamanho Bloco:256
+
+Associatividade:8
+Tamanho Cache:2K
+Tamanho Bloco:256
+
+Associatividade:1
+Tamanho Cache:4K
+Tamanho Bloco:16
+
+Associatividade:2
+Tamanho Cache:4K
+Tamanho Bloco:16
+
+Associatividade:4
+Tamanho Cache:4K
+Tamanho Bloco:16
+
+Associatividade:8
+Tamanho Cache:4K
+Tamanho Bloco:16
+
+Associatividade:1
+Tamanho Cache:4K
+Tamanho Bloco:32
+
+Associatividade:2
+Tamanho Cache:4K
+Tamanho Bloco:32
+
+Associatividade:4
+Tamanho Cache:4K
+Tamanho Bloco:32
+
+Associatividade:8
+Tamanho Cache:4K
+Tamanho Bloco:32
+
+Associatividade:1
+Tamanho Cache:4K
+Tamanho Bloco:64
+
+Associatividade:2
+Tamanho Cache:4K
+Tamanho Bloco:64
+
+Associatividade:4
+Tamanho Cache:4K
+Tamanho Bloco:64
+
+Associatividade:8
+Tamanho Cache:4K
+Tamanho Bloco:64
+
+Associatividade:1
+Tamanho Cache:4K
+Tamanho Bloco:128
+
+Associatividade:2
+Tamanho Cache:4K
+Tamanho Bloco:128
+
+Associatividade:4
+Tamanho Cache:4K
+Tamanho Bloco:128
+
+Associatividade:8
+Tamanho Cache:4K
+Tamanho Bloco:128
+
+Associatividade:1
+Tamanho Cache:4K
+Tamanho Bloco:256
+
+Associatividade:2
+Tamanho Cache:4K
+Tamanho Bloco:256
+
+Associatividade:4
+Tamanho Cache:4K
+Tamanho Bloco:256
+
+Associatividade:8
+Tamanho Cache:4K
+Tamanho Bloco:256
+
+Associatividade:1
+Tamanho Cache:8K
+Tamanho Bloco:16
+
+Associatividade:2
+Tamanho Cache:8K
+Tamanho Bloco:16
+
+Associatividade:4
+Tamanho Cache:8K
+Tamanho Bloco:16
+
+Associatividade:8
+Tamanho Cache:8K
+Tamanho Bloco:16
+
+Associatividade:1
+Tamanho Cache:8K
+Tamanho Bloco:32
+
+Associatividade:2
+Tamanho Cache:8K
+Tamanho Bloco:32
+
+Associatividade:4
+Tamanho Cache:8K
+Tamanho Bloco:32
+
+Associatividade:8
+Tamanho Cache:8K
+Tamanho Bloco:32
+
+Associatividade:1
+Tamanho Cache:8K
+Tamanho Bloco:64
+
+Associatividade:2
+Tamanho Cache:8K
+Tamanho Bloco:64
+
+Associatividade:4
+Tamanho Cache:8K
+Tamanho Bloco:64
+
+Associatividade:8
+Tamanho Cache:8K
+Tamanho Bloco:64
+
+Associatividade:1
+Tamanho Cache:8K
+Tamanho Bloco:128
+
+Associatividade:2
+Tamanho Cache:8K
+Tamanho Bloco:128
+
+Associatividade:4
+Tamanho Cache:8K
+Tamanho Bloco:128
+
+Associatividade:8
+Tamanho Cache:8K
+Tamanho Bloco:128
+
+Associatividade:1
+Tamanho Cache:8K
+Tamanho Bloco:256
+
+Associatividade:2
+Tamanho Cache:8K
+Tamanho Bloco:256
+
+Associatividade:4
+Tamanho Cache:8K
+Tamanho Bloco:256
+
+Associatividade:8
+Tamanho Cache:8K
+Tamanho Bloco:256
+
+Associatividade:1
+Tamanho Cache:16K
+Tamanho Bloco:16
+
+Associatividade:2
+Tamanho Cache:16K
+Tamanho Bloco:16
+
+Associatividade:4
+Tamanho Cache:16K
+Tamanho Bloco:16
+
+Associatividade:8
+Tamanho Cache:16K
+Tamanho Bloco:16
+
+Associatividade:1
+Tamanho Cache:16K
+Tamanho Bloco:32
+
+Associatividade:2
+Tamanho Cache:16K
+Tamanho Bloco:32
+
+Associatividade:4
+Tamanho Cache:16K
+Tamanho Bloco:32
+
+Associatividade:8
+Tamanho Cache:16K
+Tamanho Bloco:32
+
+Associatividade:1
+Tamanho Cache:16K
+Tamanho Bloco:64
+
+Associatividade:2
+Tamanho Cache:16K
+Tamanho Bloco:64
+
+Associatividade:4
+Tamanho Cache:16K
+Tamanho Bloco:64
+
+Associatividade:8
+Tamanho Cache:16K
+Tamanho Bloco:64
+
+Associatividade:1
+Tamanho Cache:16K
+Tamanho Bloco:128
+
+Associatividade:2
+Tamanho Cache:16K
+Tamanho Bloco:128
+
+Associatividade:4
+Tamanho Cache:16K
+Tamanho Bloco:128
+
+Associatividade:8
+Tamanho Cache:16K
+Tamanho Bloco:128
+
+Associatividade:1
+Tamanho Cache:16K
+Tamanho Bloco:256
+
+Associatividade:2
+Tamanho Cache:16K
+Tamanho Bloco:256
+
+Associatividade:4
+Tamanho Cache:16K
+Tamanho Bloco:256
+
+Associatividade:8
+Tamanho Cache:16K
+Tamanho Bloco:256
+
