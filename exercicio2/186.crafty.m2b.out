@@ -63,6 +63,22 @@ l1-dcache
  Demand Misses		     8944075	           0	     8944075	     8163710	      780365	           0
   Demand miss rate	      0.0595	      0.0000	      0.0595	      0.0633	      0.0366	      0.0000
 
+Tamanho da cache|4K|Tamanho do bloco|8|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		   148865106	   148865106	           0	           0	           0	           0
+  Demand miss rate	      0.3722	      0.3722	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
+ Demand Misses		     7174306	           0	     7174306	     6524373	      649933	           0
+  Demand miss rate	      0.0477	      0.0000	      0.0477	      0.0506	      0.0305	      0.0000
+
 Tamanho da cache|4K|Tamanho do bloco|16|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -126,6 +142,22 @@ l1-dcache
   Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
  Demand Misses		    14850804	           0	    14850804	    13916239	      934565	           0
   Demand miss rate	      0.1000	      0.0000	      0.1000	      0.1091	      0.0447	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|16|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    82645176	    82645176	           0	           0	           0	           0
+  Demand miss rate	      0.2066	      0.2066	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
+ Demand Misses		    12244294	           0	    12244294	    11505081	      739213	           0
+  Demand miss rate	      0.0825	      0.0000	      0.0825	      0.0902	      0.0353	      0.0000
 
 Tamanho da cache|4K|Tamanho do bloco|32|Associatividade|1|
 l1-icache
@@ -191,6 +223,22 @@ l1-dcache
  Demand Misses		    21965351	           0	    21965351	    20701417	     1263934	           0
   Demand miss rate	      0.1483	      0.0000	      0.1483	      0.1626	      0.0607	      0.0000
 
+Tamanho da cache|4K|Tamanho do bloco|32|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    49933687	    49933687	           0	           0	           0	           0
+  Demand miss rate	      0.1248	      0.1248	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
+ Demand Misses		    21591990	           0	    21591990	    20464214	     1127776	           0
+  Demand miss rate	      0.1457	      0.0000	      0.1457	      0.1607	      0.0542	      0.0000
+
 Tamanho da cache|4K|Tamanho do bloco|64|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -254,6 +302,102 @@ l1-dcache
   Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
  Demand Misses		    26177288	           0	    26177288	    24600395	     1576893	           0
   Demand miss rate	      0.1786	      0.0000	      0.1786	      0.1955	      0.0758	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|64|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    29436176	    29436176	           0	           0	           0	           0
+  Demand miss rate	      0.0736	      0.0736	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
+ Demand Misses		    26150815	           0	    26150815	    24576391	     1574424	           0
+  Demand miss rate	      0.1784	      0.0000	      0.1784	      0.1953	      0.0757	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|1|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    18671867	    18671867	           0	           0	           0	           0
+  Demand miss rate	      0.0467	      0.0467	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    36654830	           0	    36654830	    33784413	     2870417	           0
+  Demand miss rate	      0.2504	      0.0000	      0.2504	      0.2688	      0.1385	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|2|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    18000875	    18000875	           0	           0	           0	           0
+  Demand miss rate	      0.0450	      0.0450	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    30192975	           0	    30192975	    28053652	     2139323	           0
+  Demand miss rate	      0.2062	      0.0000	      0.2062	      0.2232	      0.1032	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|4|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    18483385	    18483385	           0	           0	           0	           0
+  Demand miss rate	      0.0462	      0.0462	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    28866603	           0	    28866603	    26865759	     2000844	           0
+  Demand miss rate	      0.1972	      0.0000	      0.1972	      0.2138	      0.0965	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|8|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    18266594	    18266594	           0	           0	           0	           0
+  Demand miss rate	      0.0457	      0.0457	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    27169727	           0	    27169727	    25434965	     1734762	           0
+  Demand miss rate	      0.1856	      0.0000	      0.1856	      0.2024	      0.0837	      0.0000
+
+Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    18220498	    18220498	           0	           0	           0	           0
+  Demand miss rate	      0.0456	      0.0456	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    26537440	           0	    26537440	    24867327	     1670113	           0
+  Demand miss rate	      0.1813	      0.0000	      0.1813	      0.1979	      0.0806	      0.0000
 
 Tamanho da cache|8K|Tamanho do bloco|8|Associatividade|1|
 l1-icache
@@ -319,6 +463,22 @@ l1-dcache
  Demand Misses		     3325498	           0	     3325498	     3073997	      251501	           0
   Demand miss rate	      0.0221	      0.0000	      0.0221	      0.0238	      0.0118	      0.0000
 
+Tamanho da cache|8K|Tamanho do bloco|8|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    66724668	    66724668	           0	           0	           0	           0
+  Demand miss rate	      0.1668	      0.1668	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
+ Demand Misses		     2937632	           0	     2937632	     2706568	      231064	           0
+  Demand miss rate	      0.0195	      0.0000	      0.0195	      0.0210	      0.0108	      0.0000
+
 Tamanho da cache|8K|Tamanho do bloco|16|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -382,6 +542,22 @@ l1-dcache
   Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
  Demand Misses		     4902453	           0	     4902453	     4665888	      236565	           0
   Demand miss rate	      0.0330	      0.0000	      0.0330	      0.0366	      0.0113	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|16|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    42358617	    42358617	           0	           0	           0	           0
+  Demand miss rate	      0.1059	      0.1059	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
+ Demand Misses		     4020357	           0	     4020357	     3813850	      206507	           0
+  Demand miss rate	      0.0271	      0.0000	      0.0271	      0.0299	      0.0099	      0.0000
 
 Tamanho da cache|8K|Tamanho do bloco|32|Associatividade|1|
 l1-icache
@@ -447,6 +623,22 @@ l1-dcache
  Demand Misses		     8910283	           0	     8910283	     8567176	      343107	           0
   Demand miss rate	      0.0601	      0.0000	      0.0601	      0.0673	      0.0165	      0.0000
 
+Tamanho da cache|8K|Tamanho do bloco|32|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    32030942	    32030942	           0	           0	           0	           0
+  Demand miss rate	      0.0801	      0.0801	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
+ Demand Misses		     7861230	           0	     7861230	     7506096	      355134	           0
+  Demand miss rate	      0.0531	      0.0000	      0.0531	      0.0589	      0.0171	      0.0000
+
 Tamanho da cache|8K|Tamanho do bloco|64|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -510,6 +702,102 @@ l1-dcache
   Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
  Demand Misses		    15201025	           0	    15201025	    14542744	      658281	           0
   Demand miss rate	      0.1037	      0.0000	      0.1037	      0.1156	      0.0317	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|64|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    21651116	    21651116	           0	           0	           0	           0
+  Demand miss rate	      0.0541	      0.0541	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
+ Demand Misses		    15080547	           0	    15080547	    14401873	      678674	           0
+  Demand miss rate	      0.1029	      0.0000	      0.1029	      0.1145	      0.0326	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|1|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    13837462	    13837462	           0	           0	           0	           0
+  Demand miss rate	      0.0346	      0.0346	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    26394760	           0	    26394760	    24239180	     2155580	           0
+  Demand miss rate	      0.1803	      0.0000	      0.1803	      0.1929	      0.1040	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|2|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    14237097	    14237097	           0	           0	           0	           0
+  Demand miss rate	      0.0356	      0.0356	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    21215760	           0	    21215760	    19950552	     1265208	           0
+  Demand miss rate	      0.1449	      0.0000	      0.1449	      0.1588	      0.0610	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|4|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    14322663	    14322663	           0	           0	           0	           0
+  Demand miss rate	      0.0358	      0.0358	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    18965977	           0	    18965977	    17968427	      997550	           0
+  Demand miss rate	      0.1296	      0.0000	      0.1296	      0.1430	      0.0481	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|8|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    14959274	    14959274	           0	           0	           0	           0
+  Demand miss rate	      0.0374	      0.0374	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    18751015	           0	    18751015	    17757043	      993972	           0
+  Demand miss rate	      0.1281	      0.0000	      0.1281	      0.1413	      0.0479	      0.0000
+
+Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		    15248225	    15248225	           0	           0	           0	           0
+  Demand miss rate	      0.0381	      0.0381	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    18762103	           0	    18762103	    17774477	      987626	           0
+  Demand miss rate	      0.1282	      0.0000	      0.1282	      0.1414	      0.0476	      0.0000
 
 Tamanho da cache|16K|Tamanho do bloco|8|Associatividade|1|
 l1-icache
@@ -575,6 +863,22 @@ l1-dcache
  Demand Misses		     1086473	           0	     1086473	     1004489	       81984	           0
   Demand miss rate	      0.0072	      0.0000	      0.0072	      0.0078	      0.0038	      0.0000
 
+Tamanho da cache|16K|Tamanho do bloco|8|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     9473660	     9473660	           0	           0	           0	           0
+  Demand miss rate	      0.0237	      0.0237	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
+ Demand Misses		      892643	           0	      892643	      820252	       72391	           0
+  Demand miss rate	      0.0059	      0.0000	      0.0059	      0.0064	      0.0034	      0.0000
+
 Tamanho da cache|16K|Tamanho do bloco|16|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -638,6 +942,22 @@ l1-dcache
   Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
  Demand Misses		     1511174	           0	     1511174	     1444620	       66554	           0
   Demand miss rate	      0.0102	      0.0000	      0.0102	      0.0113	      0.0032	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|16|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     6004984	     6004984	           0	           0	           0	           0
+  Demand miss rate	      0.0150	      0.0150	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
+ Demand Misses		     1298365	           0	     1298365	     1237978	       60387	           0
+  Demand miss rate	      0.0087	      0.0000	      0.0087	      0.0097	      0.0029	      0.0000
 
 Tamanho da cache|16K|Tamanho do bloco|32|Associatividade|1|
 l1-icache
@@ -703,6 +1023,22 @@ l1-dcache
  Demand Misses		     2970735	           0	     2970735	     2881299	       89436	           0
   Demand miss rate	      0.0201	      0.0000	      0.0201	      0.0226	      0.0043	      0.0000
 
+Tamanho da cache|16K|Tamanho do bloco|32|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     5203532	     5203532	           0	           0	           0	           0
+  Demand miss rate	      0.0130	      0.0130	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
+ Demand Misses		     2094577	           0	     2094577	     2014973	       79604	           0
+  Demand miss rate	      0.0141	      0.0000	      0.0141	      0.0158	      0.0038	      0.0000
+
 Tamanho da cache|16K|Tamanho do bloco|64|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -767,6 +1103,102 @@ l1-dcache
  Demand Misses		     5364781	           0	     5364781	     5193699	      171082	           0
   Demand miss rate	      0.0366	      0.0000	      0.0366	      0.0413	      0.0082	      0.0000
 
+Tamanho da cache|16K|Tamanho do bloco|64|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     4522830	     4522830	           0	           0	           0	           0
+  Demand miss rate	      0.0113	      0.0113	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
+ Demand Misses		     4612694	           0	     4612694	     4465486	      147208	           0
+  Demand miss rate	      0.0315	      0.0000	      0.0315	      0.0355	      0.0071	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|1|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     7630156	     7630156	           0	           0	           0	           0
+  Demand miss rate	      0.0191	      0.0191	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    14337695	           0	    14337695	    13128090	     1209605	           0
+  Demand miss rate	      0.0979	      0.0000	      0.0979	      0.1045	      0.0583	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|2|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     5567610	     5567610	           0	           0	           0	           0
+  Demand miss rate	      0.0139	      0.0139	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		    10980129	           0	    10980129	    10267933	      712196	           0
+  Demand miss rate	      0.0750	      0.0000	      0.0750	      0.0817	      0.0344	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|4|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     5371726	     5371726	           0	           0	           0	           0
+  Demand miss rate	      0.0134	      0.0134	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		     9955730	           0	     9955730	     9476732	      478998	           0
+  Demand miss rate	      0.0680	      0.0000	      0.0680	      0.0754	      0.0231	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|8|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     4929456	     4929456	           0	           0	           0	           0
+  Demand miss rate	      0.0123	      0.0123	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		     8894451	           0	     8894451	     8545788	      348663	           0
+  Demand miss rate	      0.0608	      0.0000	      0.0608	      0.0680	      0.0168	      0.0000
+
+Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
+  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
+ Demand Misses		     4217549	     4217549	           0	           0	           0	           0
+  Demand miss rate	      0.0105	      0.0105	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
+ Demand Misses		     8501239	           0	     8501239	     8151769	      349470	           0
+  Demand miss rate	      0.0581	      0.0000	      0.0581	      0.0649	      0.0169	      0.0000
+
 Tamanho da cache|32K|Tamanho do bloco|8|Associatividade|1|
 l1-icache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
@@ -800,1073 +1232,3 @@ l1-dcache
   Demand miss rate	      0.0068	      0.0000	      0.0068	      0.0074	      0.0031	      0.0000
 
 Tamanho da cache|32K|Tamanho do bloco|8|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     1429352	     1429352	           0	           0	           0	           0
-  Demand miss rate	      0.0036	      0.0036	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      506635	           0	      506635	      466461	       40174	           0
-  Demand miss rate	      0.0034	      0.0000	      0.0034	      0.0036	      0.0019	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|8|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      654556	      654556	           0	           0	           0	           0
-  Demand miss rate	      0.0016	      0.0016	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      405293	           0	      405293	      367796	       37497	           0
-  Demand miss rate	      0.0027	      0.0000	      0.0027	      0.0029	      0.0018	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|16|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     9869916	     9869916	           0	           0	           0	           0
-  Demand miss rate	      0.0247	      0.0247	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		     4357705	           0	     4357705	     4086861	      270844	           0
-  Demand miss rate	      0.0294	      0.0000	      0.0294	      0.0320	      0.0129	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|16|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     1778091	     1778091	           0	           0	           0	           0
-  Demand miss rate	      0.0044	      0.0044	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		     1197743	           0	     1197743	     1157078	       40665	           0
-  Demand miss rate	      0.0081	      0.0000	      0.0081	      0.0091	      0.0019	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|16|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      897091	      897091	           0	           0	           0	           0
-  Demand miss rate	      0.0022	      0.0022	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      586844	           0	      586844	      571356	       15488	           0
-  Demand miss rate	      0.0040	      0.0000	      0.0040	      0.0045	      0.0007	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|16|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      443726	      443726	           0	           0	           0	           0
-  Demand miss rate	      0.0011	      0.0011	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      446388	           0	      446388	      434486	       11902	           0
-  Demand miss rate	      0.0030	      0.0000	      0.0030	      0.0034	      0.0006	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|32|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     6243505	     6243505	           0	           0	           0	           0
-  Demand miss rate	      0.0156	      0.0156	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		     5893901	           0	     5893901	     5632102	      261799	           0
-  Demand miss rate	      0.0398	      0.0000	      0.0398	      0.0442	      0.0126	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|32|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     1261221	     1261221	           0	           0	           0	           0
-  Demand miss rate	      0.0032	      0.0032	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		     2271819	           0	     2271819	     2216876	       54943	           0
-  Demand miss rate	      0.0153	      0.0000	      0.0153	      0.0174	      0.0026	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|32|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      741220	      741220	           0	           0	           0	           0
-  Demand miss rate	      0.0019	      0.0019	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      933971	           0	      933971	      907343	       26628	           0
-  Demand miss rate	      0.0063	      0.0000	      0.0063	      0.0071	      0.0013	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|32|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      410918	      410918	           0	           0	           0	           0
-  Demand miss rate	      0.0010	      0.0010	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      692438	           0	      692438	      674108	       18330	           0
-  Demand miss rate	      0.0047	      0.0000	      0.0047	      0.0053	      0.0009	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|64|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     3811205	     3811205	           0	           0	           0	           0
-  Demand miss rate	      0.0095	      0.0095	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     7642377	           0	     7642377	     7151339	      491038	           0
-  Demand miss rate	      0.0521	      0.0000	      0.0521	      0.0568	      0.0236	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|64|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      963030	      963030	           0	           0	           0	           0
-  Demand miss rate	      0.0024	      0.0024	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     3583153	           0	     3583153	     3491334	       91819	           0
-  Demand miss rate	      0.0244	      0.0000	      0.0244	      0.0277	      0.0044	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|64|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      662046	      662046	           0	           0	           0	           0
-  Demand miss rate	      0.0017	      0.0017	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     1817024	           0	     1817024	     1762847	       54177	           0
-  Demand miss rate	      0.0124	      0.0000	      0.0124	      0.0140	      0.0026	      0.0000
-
-Tamanho da cache|32K|Tamanho do bloco|64|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      406047	      406047	           0	           0	           0	           0
-  Demand miss rate	      0.0010	      0.0010	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     1596499	           0	     1596499	     1562765	       33734	           0
-  Demand miss rate	      0.0109	      0.0000	      0.0109	      0.0124	      0.0016	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|8|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      204564	      204564	           0	           0	           0	           0
-  Demand miss rate	      0.0005	      0.0005	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		     2981754	           0	     2981754	     2732698	      249056	           0
-  Demand miss rate	      0.0198	      0.0000	      0.0198	      0.0212	      0.0117	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|8|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       55262	       55262	           0	           0	           0	           0
-  Demand miss rate	      0.0001	      0.0001	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      569554	           0	      569554	      526414	       43140	           0
-  Demand miss rate	      0.0038	      0.0000	      0.0038	      0.0041	      0.0020	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|8|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       13943	       13943	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      273870	           0	      273870	      243464	       30406	           0
-  Demand miss rate	      0.0018	      0.0000	      0.0018	      0.0019	      0.0014	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|8|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        8866	        8866	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      218568	           0	      218568	      189163	       29405	           0
-  Demand miss rate	      0.0015	      0.0000	      0.0015	      0.0015	      0.0014	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|16|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		      117534	      117534	           0	           0	           0	           0
-  Demand miss rate	      0.0003	      0.0003	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		     3155691	           0	     3155691	     2951818	      203873	           0
-  Demand miss rate	      0.0213	      0.0000	      0.0213	      0.0231	      0.0097	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|16|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       33386	       33386	           0	           0	           0	           0
-  Demand miss rate	      0.0001	      0.0001	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      608353	           0	      608353	      591643	       16710	           0
-  Demand miss rate	      0.0041	      0.0000	      0.0041	      0.0046	      0.0008	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|16|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        8336	        8336	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      268101	           0	      268101	      263820	        4281	           0
-  Demand miss rate	      0.0018	      0.0000	      0.0018	      0.0021	      0.0002	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|16|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5170	        5170	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      189488	           0	      189488	      186680	        2808	           0
-  Demand miss rate	      0.0013	      0.0000	      0.0013	      0.0015	      0.0001	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|32|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       79082	       79082	           0	           0	           0	           0
-  Demand miss rate	      0.0002	      0.0002	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		     3865308	           0	     3865308	     3676057	      189251	           0
-  Demand miss rate	      0.0261	      0.0000	      0.0261	      0.0289	      0.0091	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|32|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       28048	       28048	           0	           0	           0	           0
-  Demand miss rate	      0.0001	      0.0001	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      826570	           0	      826570	      806228	       20342	           0
-  Demand miss rate	      0.0056	      0.0000	      0.0056	      0.0063	      0.0010	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|32|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5988	        5988	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      358276	           0	      358276	      352731	        5545	           0
-  Demand miss rate	      0.0024	      0.0000	      0.0024	      0.0028	      0.0003	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|32|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3752	        3752	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      246329	           0	      246329	      243227	        3102	           0
-  Demand miss rate	      0.0017	      0.0000	      0.0017	      0.0019	      0.0001	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|64|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       54715	       54715	           0	           0	           0	           0
-  Demand miss rate	      0.0001	      0.0001	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     5127048	           0	     5127048	     4736356	      390692	           0
-  Demand miss rate	      0.0350	      0.0000	      0.0350	      0.0376	      0.0188	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|64|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		       25258	       25258	           0	           0	           0	           0
-  Demand miss rate	      0.0001	      0.0001	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     1322875	           0	     1322875	     1281843	       41032	           0
-  Demand miss rate	      0.0090	      0.0000	      0.0090	      0.0102	      0.0020	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|64|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3627	        3627	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      714851	           0	      714851	      704386	       10465	           0
-  Demand miss rate	      0.0049	      0.0000	      0.0049	      0.0056	      0.0005	      0.0000
-
-Tamanho da cache|64K|Tamanho do bloco|64|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        2167	        2167	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      351660	           0	      351660	      347090	        4570	           0
-  Demand miss rate	      0.0024	      0.0000	      0.0024	      0.0028	      0.0002	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|8|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        8100	        8100	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      871168	           0	      871168	      808670	       62498	           0
-  Demand miss rate	      0.0058	      0.0000	      0.0058	      0.0063	      0.0029	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|8|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      285007	           0	      285007	      253466	       31541	           0
-  Demand miss rate	      0.0019	      0.0000	      0.0019	      0.0020	      0.0015	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|8|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      156381	           0	      156381	      129425	       26956	           0
-  Demand miss rate	      0.0010	      0.0000	      0.0010	      0.0010	      0.0013	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|8|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      143012	           0	      143012	      116490	       26522	           0
-  Demand miss rate	      0.0010	      0.0000	      0.0010	      0.0009	      0.0012	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|16|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        4417	        4417	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      894855	           0	      894855	      858943	       35912	           0
-  Demand miss rate	      0.0060	      0.0000	      0.0060	      0.0067	      0.0017	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|16|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      266372	           0	      266372	      259252	        7120	           0
-  Demand miss rate	      0.0018	      0.0000	      0.0018	      0.0020	      0.0003	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|16|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      121100	           0	      121100	      118997	        2103	           0
-  Demand miss rate	      0.0008	      0.0000	      0.0008	      0.0009	      0.0001	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|16|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		       99460	           0	       99460	       97954	        1506	           0
-  Demand miss rate	      0.0007	      0.0000	      0.0007	      0.0008	      0.0001	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|32|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        2477	        2477	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		     1101810	           0	     1101810	     1064311	       37499	           0
-  Demand miss rate	      0.0074	      0.0000	      0.0074	      0.0084	      0.0018	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|32|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      327929	           0	      327929	      319851	        8078	           0
-  Demand miss rate	      0.0022	      0.0000	      0.0022	      0.0025	      0.0004	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|32|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      150995	           0	      150995	      149058	        1937	           0
-  Demand miss rate	      0.0010	      0.0000	      0.0010	      0.0012	      0.0001	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|32|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      120952	           0	      120952	      119762	        1190	           0
-  Demand miss rate	      0.0008	      0.0000	      0.0008	      0.0009	      0.0001	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|64|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1404	        1404	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		     1517797	           0	     1517797	     1468647	       49150	           0
-  Demand miss rate	      0.0104	      0.0000	      0.0104	      0.0117	      0.0024	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|64|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      543777	           0	      543777	      529695	       14082	           0
-  Demand miss rate	      0.0037	      0.0000	      0.0037	      0.0042	      0.0007	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|64|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      227821	           0	      227821	      224872	        2949	           0
-  Demand miss rate	      0.0016	      0.0000	      0.0016	      0.0018	      0.0001	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|64|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      150092	           0	      150092	      148907	        1185	           0
-  Demand miss rate	      0.0010	      0.0000	      0.0010	      0.0012	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|8|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        6468	        6468	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      318712	           0	      318712	      269462	       49250	           0
-  Demand miss rate	      0.0021	      0.0000	      0.0021	      0.0021	      0.0023	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|8|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      124625	           0	      124625	      100317	       24308	           0
-  Demand miss rate	      0.0008	      0.0000	      0.0008	      0.0008	      0.0011	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|8|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      110348	           0	      110348	       86798	       23550	           0
-  Demand miss rate	      0.0007	      0.0000	      0.0007	      0.0007	      0.0011	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|8|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        5805	        5805	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   150325024	           0	   150325024	   129021364	    21303660	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8583	      0.1417	      0.0000
- Demand Misses		      106143	           0	      106143	       82870	       23273	           0
-  Demand miss rate	      0.0007	      0.0000	      0.0007	      0.0006	      0.0011	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|16|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3420	        3420	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		      305145	           0	      305145	      280033	       25112	           0
-  Demand miss rate	      0.0021	      0.0000	      0.0021	      0.0022	      0.0012	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|16|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		       88453	           0	       88453	       86289	        2164	           0
-  Demand miss rate	      0.0006	      0.0000	      0.0006	      0.0007	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|16|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		       69605	           0	       69605	       68272	        1333	           0
-  Demand miss rate	      0.0005	      0.0000	      0.0005	      0.0005	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|16|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        3030	        3030	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148456682	           0	   148456682	   127537464	    20919218	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8591	      0.1409	      0.0000
- Demand Misses		       65092	           0	       65092	       64045	        1047	           0
-  Demand miss rate	      0.0004	      0.0000	      0.0004	      0.0005	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|32|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1920	        1920	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      406788	           0	      406788	      384394	       22394	           0
-  Demand miss rate	      0.0027	      0.0000	      0.0027	      0.0030	      0.0011	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|32|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		      110509	           0	      110509	      108679	        1830	           0
-  Demand miss rate	      0.0007	      0.0000	      0.0007	      0.0009	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|32|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		       76031	           0	       76031	       75094	         937	           0
-  Demand miss rate	      0.0005	      0.0000	      0.0005	      0.0006	      0.0000	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|32|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1608	        1608	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   148155548	           0	   148155548	   127332716	    20822832	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8595	      0.1405	      0.0000
- Demand Misses		       69832	           0	       69832	       69189	         643	           0
-  Demand miss rate	      0.0005	      0.0000	      0.0005	      0.0005	      0.0000	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|64|Associatividade|1|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		        1092	        1092	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      538092	           0	      538092	      514104	       23988	           0
-  Demand miss rate	      0.0037	      0.0000	      0.0037	      0.0041	      0.0012	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|64|Associatividade|2|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		      242821	           0	      242821	      236334	        6487	           0
-  Demand miss rate	      0.0017	      0.0000	      0.0017	      0.0019	      0.0003	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|64|Associatividade|4|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		       87475	           0	       87475	       86546	         929	           0
-  Demand miss rate	      0.0006	      0.0000	      0.0006	      0.0007	      0.0000	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|64|Associatividade|8|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         858	         858	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146608840	           0	   146608840	   125817781	    20791059	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8582	      0.1418	      0.0000
- Demand Misses		       77137	           0	       77137	       76685	         452	           0
-  Demand miss rate	      0.0005	      0.0000	      0.0005	      0.0006	      0.0000	      0.0000
-
-Tamanho da cache|4K|Tamanho do bloco|128|Associatividade|16|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		    18220498	    18220498	           0	           0	           0	           0
-  Demand miss rate	      0.0456	      0.0456	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
- Demand Misses		    26537440	           0	    26537440	    24867327	     1670113	           0
-  Demand miss rate	      0.1813	      0.0000	      0.1813	      0.1979	      0.0806	      0.0000
-
-Tamanho da cache|8K|Tamanho do bloco|128|Associatividade|16|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		    15248225	    15248225	           0	           0	           0	           0
-  Demand miss rate	      0.0381	      0.0381	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
- Demand Misses		    18762103	           0	    18762103	    17774477	      987626	           0
-  Demand miss rate	      0.1282	      0.0000	      0.1282	      0.1414	      0.0476	      0.0000
-
-Tamanho da cache|16K|Tamanho do bloco|128|Associatividade|16|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		     4217549	     4217549	           0	           0	           0	           0
-  Demand miss rate	      0.0105	      0.0105	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
- Demand Misses		     8501239	           0	     8501239	     8151769	      349470	           0
-  Demand miss rate	      0.0581	      0.0000	      0.0581	      0.0649	      0.0169	      0.0000
-
-Tamanho da cache|128K|Tamanho do bloco|128|Associatividade|16|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         461	         461	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
- Demand Misses		      171721	           0	      171721	      170646	        1075	           0
-  Demand miss rate	      0.0012	      0.0000	      0.0012	      0.0014	      0.0001	      0.0000
-
-Tamanho da cache|256K|Tamanho do bloco|128|Associatividade|16|
-l1-icache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   399999954	   399999954	           0	           0	           0	           0
-  Fraction of total	      1.0000	      1.0000	      0.0000	      0.0000	      0.0000	      0.0000
- Demand Misses		         461	         461	           0	           0	           0	           0
-  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
-l1-dcache
- Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
- -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		   146394980	           0	   146394980	   125664412	    20730568	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.8584	      0.1416	      0.0000
- Demand Misses		       87049	           0	       87049	       86681	         368	           0
-  Demand miss rate	      0.0006	      0.0000	      0.0006	      0.0007	      0.0000	      0.0000
