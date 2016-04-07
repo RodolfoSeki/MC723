@@ -8,9 +8,19 @@ ARRAY=('183.equake.f2b' '168.wupwise.f2b' '186.crafty.m2b' '252.eon.m2b')
 trace_num=$1
 trace="${ARRAY[$trace_num]}"	# escolhe um trace para rodar todas as configurações de cache para aquele trace
 
-ASSOCIATIVIDADE='1 2 4 8'
-BLOCK_SIZE='8 16 32 64'
-CACHE_SIZE='4K 8K 16K 32K 64K'
+
+#ASSOCIATIVIDADE='1 2 4 8 16'
+#BLOCK_SIZE='8 16 32 64 128'
+#CACHE_SIZE='4K 8K 16K 32K 64K 128K 256K'
+
+#ASSOCIATIVIDADE='1 2 4 8'
+#BLOCK_SIZE='8 16 32 64'
+#CACHE_SIZE='4K 8K 16K 32K 64K'
+
+
+ASSOCIATIVIDADE='16'
+BLOCK_SIZE='128'
+CACHE_SIZE='4K 8K 16K 128K 256K'
 
 
 
