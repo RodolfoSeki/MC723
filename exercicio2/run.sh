@@ -16,8 +16,8 @@ trace="${ARRAY[$trace_num]}"	# escolhe um trace para rodar todas as configuraÃ§Ã
 #CACHE_SIZE='4K 8K 16K 32K 64K 128K 256K'
 
 
-ASSOCIATIVIDADE='1'
-BLOCK_SIZE='8 16 32 64 128 256 512 1024 2048 4096 8192'
+ASSOCIATIVIDADE='1 2 4 8 16 32 64 128'
+BLOCK_SIZE='256'
 CACHE_SIZE='32K'
 
 
@@ -32,8 +32,8 @@ for cache_size in $CACHE_SIZE;do
 		for associatividade in $ASSOCIATIVIDADE;do
 			#echo -e "\nTamanho da cache|$cache_size|Tamanho do bloco|$block_size|Associatividade|$associatividade|" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/newdata/$trace.out
 			#../../dinero4sbc/dineroIV -informat s -trname $trname -maxtrace 20 -l1-isize $cache_size -l1-ibsize $block_size -l1-dsize $cache_size -l1-dbsize $block_size -l1-iassoc $associatividade -l1-dassoc $associatividade| grep "l1-icache\|l1-dcache\|Metrics\|-----------------\|Demand Fetches\|Fraction of total\|Demand Misses\|Demand miss rate\|Compulsory misses\|Capacity misses\|Conflict misses\|Compulsory fraction\|Capacity fraction\|Conflict fraction" | grep -v "( / Demand Fetches)" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/newdata/$trace.out
-			echo -e "\nTamanho da cache|$cache_size|Tamanho do bloco|$block_size|Associatividade|$associatividade|" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/data/block/$trace.out
-			../../dinero4sbc/dineroIV -informat s -trname $trname -maxtrace 20 -l1-isize $cache_size -l1-ibsize $block_size -l1-dsize $cache_size -l1-dbsize $block_size -l1-iassoc $associatividade -l1-dassoc $associatividade| grep "l1-icache\|l1-dcache\|Metrics\|-----------------\|Demand Misses\|Demand miss rate\|Conflict misses\|Compulsory fraction\|Capacity fraction\|Conflict fraction" | grep -v "( / Demand Fetches)" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/data/block/$trace.out
+			echo -e "\nTamanho da cache|$cache_size|Tamanho do bloco|$block_size|Associatividade|$associatividade|" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/data/assoc/$trace.out
+			../../dinero4sbc/dineroIV -informat s -trname $trname -maxtrace 20 -l1-isize $cache_size -l1-ibsize $block_size -l1-dsize $cache_size -l1-dbsize $block_size -l1-iassoc $associatividade -l1-dassoc $associatividade| grep "l1-icache\|l1-dcache\|Metrics\|-----------------\|Demand Misses\|Demand miss rate\|Conflict misses\|Compulsory fraction\|Capacity fraction\|Conflict fraction" | grep -v "( / Demand Fetches)" >> /home/ec2013/ra117842/mc723/MC723/exercicio2/data/assoc/$trace.out
 
 		done
 	done

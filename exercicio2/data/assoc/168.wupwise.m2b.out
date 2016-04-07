@@ -1,0 +1,96 @@
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|1|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		        4410	        4410	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		     1967302	           0	     1967302	     1811008	      156294	           0
+  Demand miss rate	      0.0167	      0.0000	      0.0167	      0.0200	      0.0057	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|2|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      624625	           0	      624625	      607535	       17090	           0
+  Demand miss rate	      0.0053	      0.0000	      0.0053	      0.0067	      0.0006	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|4|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      560734	           0	      560734	      553353	        7381	           0
+  Demand miss rate	      0.0048	      0.0000	      0.0048	      0.0061	      0.0003	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|8|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      517713	           0	      517713	      511353	        6360	           0
+  Demand miss rate	      0.0044	      0.0000	      0.0044	      0.0056	      0.0002	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|16|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      524487	           0	      524487	      518127	        6360	           0
+  Demand miss rate	      0.0044	      0.0000	      0.0044	      0.0057	      0.0002	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|32|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      526908	           0	      526908	      520548	        6360	           0
+  Demand miss rate	      0.0045	      0.0000	      0.0045	      0.0057	      0.0002	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|64|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      513472	           0	      513472	      507112	        6360	           0
+  Demand miss rate	      0.0044	      0.0000	      0.0044	      0.0056	      0.0002	      0.0000
+
+Tamanho da cache|32K|Tamanho do bloco|256|Associatividade|128|
+l1-icache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		          55	          55	           0	           0	           0	           0
+  Demand miss rate	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Misses		      511414	           0	      511414	      505054	        6360	           0
+  Demand miss rate	      0.0043	      0.0000	      0.0043	      0.0056	      0.0002	      0.0000
