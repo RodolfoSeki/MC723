@@ -18,7 +18,7 @@ A figura acima mostra a hierarquia das memória de um computador com dois nívei
 
 ### Tamanho do bloco (block size)
 
-O tamanho do bloco indica quanta informação pode ser armazenada em cada entrada da cache, se temos uma cache com capacidade de 32Kb e o tamanho do bloco é de 32 bytes, podem ser armazenadas nesta cache 1000 entradas, ou linhas, com dados de 32 bytes em cada entrada. Um método simples de reduzir a taxa de miss é aumentar o tamanho do bloco, pois tiramos vantagem da localização espacial dos dados na memória, principalmente para instruções que normalmente estão armazenadas sequêncialmente em ordem de execução. No entanto, isto aumenta a quantidade de miss, pois blocos grandes diminuem o número de entradas. Se dobramos o tamanho do bloco, diminuimos na metade o número de entradas da cache, o que pode reduzir muito o desempenho para caches de pouca capacidade. É importante equilibrar o tamanho do bloco com a capacidade da cache.
+O tamanho do bloco indica quanta informação pode ser armazenada em cada entrada da cache, se temos uma cache com capacidade de 32KB e o tamanho do bloco é de 32 bytes, podem ser armazenadas nesta cache 1000 entradas, ou linhas, com dados de 32 bytes em cada entrada. Um método simples de reduzir a taxa de miss é aumentar o tamanho do bloco, pois tiramos vantagem da localização espacial dos dados na memória, principalmente para instruções que normalmente estão armazenadas sequêncialmente em ordem de execução. No entanto, isto aumenta a quantidade de miss, pois blocos grandes diminuem o número de entradas. Se dobramos o tamanho do bloco, diminuimos na metade o número de entradas da cache, o que pode reduzir muito o desempenho para caches de pouca capacidade. É importante equilibrar o tamanho do bloco com a capacidade da cache.
 
 
 ### Associatividade da cache
@@ -57,25 +57,65 @@ Na configuração de um cache de um nível (L1), há três parâmetros principai
 
 ### Tamanho do cache
 
-Imaginando que queremos encontrar a melhor configuração de cache para o computador do IC, um Intel Core i5-4590, vamos fixar o tamanho do cache L1 de dados e instruções para 32K, mesmo valor das máquinas do IC. Este valor ainda é o padrão para as CPUs da Intel.
+Imaginando que queremos encontrar a melhor configuração de cache para o computador do IC, um Intel Core i5-4590, vamos fixar o tamanho do cache L1 de dados e instruções para 32 KB, mesmo valor das máquinas do IC. Este valor ainda é o padrão para as CPUs da Intel.
 
 ### Tamanho de bloco
 
-#### Gráficos de miss rate para tamanho de bloco
+Com o tamanho de cache definido, agora o objetivo é definir o melhor tamanho de bloco, usando o script [run.sh](run.sh), foram simulados testes com tamanho de cache 32 KB e associatividade 1 fixos, variando então o tamanho de bloco entre 8 bytes e 8 KB. A seguir estão os gráficos para os 4 traces utilizados, os gráficos mostram a variação do *miss rate* em relação ao tamanho do bloco. Um ponto importante a se notar que muito valores aparecem como 0 % de *miss rate*, isto acontece por um problema de precisão, o menor valor que o dinero IV registra é 0.01 % de *miss rate*, portanto valores menores que este são arredondados para 0.
 
-##### 168.wupwise.m2b
+#### 168.wupwise.m2b
 ![Gráfico 1: 168.wupwise.m2b](./data/block/block_168.wupwise.m2b.out.png)
 
-##### 183.equake.m2b
+Aqui vemos que o *miss rate* da cache L1 de instruções é sempre muito próximo de 0%, até que o bloco fica muito grande e o *miss rate* começa a aumentar. Este é o comportamento esperado, quando o bloco começa a ficar muito grande, a quantidade de entradas reduz, se o código possuir muitas instruções de *jump*, pode ser necessário buscar um trecho de instruções que não se beneficia da localização espacial, ocorrendo um *miss*. O cache L1 de dados  também está de acordo com o esperado, blocos muito pequenos também aumentam o número de miss, pois cada bloco armazena menos dados, logo mais pedidos de dados devem ser feitos a memória principal.
+O tamanho ideal de bloco que minimiza o *miss rate* das duas caches é 256 bytes (2^8).
+
+#### 183.equake.m2b
 ![Gráfico 2: 183.equake.m2b](./data/block/block_183.equake.m2b.out.png)
 
-##### 186.crafty.m2b
+Neste trace o *miss rate* da cache L1 de instruções não é afetado pelo tamanho do bloco, sempre é próximo de 0%. Isto pode ser explicado se o código tem poucas instruções de *jump*, ẽ como os blocos armazenam instruções sequenciais, poucos *miss* são gerados. A cache de dados apresenta um resultado semelhante ao anterior, blocos muito pequenos ou muito grandes aumentam o *miss rate*.
+O tamanho ideal de bloco também é 256 bytes (2^8) para este trace.
+
+
+#### 186.crafty.m2b
 ![Gráfico 3: 186.crafty.m2b](./data/block/block_186.crafty.m2b.out.png)
 
-##### 252.eon.m2b
+Este trace apresenta uma situação diferente quando comparado com anteriores, para cache de instruções, temos *miss rate* muito alto para blocos pequenos e a medida que os blocos aumentam, o *miss rate* diminui e se estabiliza próximo de 0.5%. Talvez as instruções de *jump* deste trace saltem para instruções em posições de memória próximas, então a medida que o tamanho do bloco aumenta, o número de *miss* diminue. A cache de dados apresenta comportamento oposto, o *miss rate* é menor para blocos de menor tamanho e maior para blocos maiores. O que pode significar que este trace manipula uma grande quantidade de dados.
+O tamanho ideal de bloco deste trace foi de 16 bytes (2^4).
+
+#### 252.eon.m2b
 ![Gráfico 4: 252.eon.m2b](./data/block/block_252.eon.m2b.out.png)
 
+Neste trace o comportamento é igual ao trace anterior, podendo então ser explicado da mesma maneira que os gráficos de 186.crafty.m2b. No entanto o melhor tamanho de bloco neste caso foi de 256 bytes (2^8).
+
+#### Escolha do tamanho do bloco
+
+Para escolher o melhor tamanho de bloco para estes traces foi empregado o princípio de "melhorar o caso comum", em 3 de 4 testes, o bloco com tamanho 256 bytes foi o que apresentou melhor performance, então se considerarmos que na maioria dos casos este tamanho será a melhor opção, então fica definido como melhor tamanho de bloco 256 bytes. E mesmo para o trace 186.crafty.m2b, onde o bloco de 8 bytes apresentou melhor desempenho, usar blocos de 256 bytes não reduz muito a performance do cache, logo 256 bytes é uma opção válida para todos os traces.
+
 ### Associatividade da cache
+
+Agora com cache de 32 KB e blocos de tamanho 256 bytes definidos, vamos realizar testes para determinar a melhor associatividade para o nosso cache. Rodando novamente o  [run.sh](run.sh) agora variamos a associatividade de 1 até 128, assumindo apenas potências de 2. Vemos a seguir gráficos semelhantes aos da seção anterior:
+
+
+#### 168.wupwise.m2b
+![Gráfico 5: 168.wupwise.m2b](./data/assoc/assoc_168.wupwise.m2b.out.png)
+
+
+
+#### 183.equake.m2b
+![Gráfico 6: 183.equake.m2b](./data/assoc/assoc_183.equake.m2b.out.png)
+
+
+
+#### 186.crafty.m2b
+![Gráfico 7: 186.crafty.m2b](./data/assoc/assoc_186.crafty.m2b.out.png)
+
+
+
+#### 252.eon.m2b
+![Gráfico 8: 252.eon.m2b](./data/assoc/assoc_252.eon.m2b.out.png)
+
+
+
 
 
 ## Conclusão
