@@ -11,11 +11,6 @@ trace="${ARRAY[$trace_num]}"	# escolhe um trace para rodar todas as configura√ß√
 
 #Computador :Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
 
-#ASSOCIATIVIDADE='1 2 4 8 16'
-#BLOCK_SIZE='8 16 32 64 128'
-#CACHE_SIZE='4K 8K 16K 32K 64K 128K 256K'
-
-
 ASSOCIATIVIDADE='1 2 4 8 16 32 64 128'
 BLOCK_SIZE='256'
 CACHE_SIZE='32K'
