@@ -100,7 +100,6 @@ Agora com cache de 32 KB e blocos de tamanho 256 bytes definidos, vamos realizar
 ![Gráfico 5: 168.wupwise.m2b](./data/assoc/assoc_168.wupwise.m2b.out.png)
 
 
-
 #### 183.equake.m2b
 ![Gráfico 6: 183.equake.m2b](./data/assoc/assoc_183.equake.m2b.out.png)
 
@@ -115,10 +114,19 @@ Agora com cache de 32 KB e blocos de tamanho 256 bytes definidos, vamos realizar
 ![Gráfico 8: 252.eon.m2b](./data/assoc/assoc_252.eon.m2b.out.png)
 
 
+#### Escolha de associatividade
+
+Com a variação da associatividade vemos em todos os gráficos o mesmo padrão, aumentar a associatividade melhora o *miss rate* da cache, pois há mais entradas onde um bloco é "aceito" assim há problema de conflito. Quando a associatividade é 1, a cache é mapeada diretamente, um bloco só pode ser armazenado em uma determinada posição, se esta posição já estava ocupada ocorre o conflito. Mas este benefício de aumentar a associatividade não é infinito, vemos que a partir de um valor de associatividade o *miss rate* permanece constante, isso porque há entradas suficientes para que os blocos não entrem em conflito. Assim podemos definir o melhor valor de associatividade para 64 (2^6), pois o  trace 252.eon.m2b ainda apresenta melhorias no *miss rate* até este valor.
+
+
+### Melhor configuração
+
+
+Definimos então como melhor configuração de cache para o computador estudado (Intel Core i5), uma cache L1 de dados e de instruções com 32 KB para cada, com blocos de tamanho 32 bytes e associatividade de 64. No entanto, vale ressaltar que está é a melhor configuração para este tamanho de cache e em relação aos traces utilizados na análise, se alterarmos o tamanho de cache ou os traces, podemos chegar em configurações diferentes. É importante notar também que só foram utilizados o tamanho de bloco e associatividade da cache para determinar a melhor configuração, há outros parâmetros que devem ser incluidos nesta análise, como tempo de resposta ao *miss* e ao *hit*, mas não puderam ser utilizados pois o dinero IV não é capaz de simular estas condições. 
 
 
 
 ## Conclusão
 
 
-
+A proposta do exercício era encontrar a melhor configuração de cache L1 de instrução e dados, levando em consideração o método de avaliação e as ferramentas disponíveis para encontrar esta configuração, o exercício for realizado de forma satisfatória, mas sempre lembrando que há outros parâmetros que não foram utilizados, mas que são importantes quando se busca determinar a melhor configuração de cache.
