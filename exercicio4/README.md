@@ -152,6 +152,7 @@ Podemos ver que o número de múltiplos encontrados é o mesmo, mas a sequência
 Abaixo vemos os valores de total de instruções executadas e tempo de execução dos programas:
 
 Programa single core ([prime_single.c](mips-tlm/prime_single.c))
+
 | Processador  | Instruções  |
 |---|---|
 |  0 |1472633250   |
